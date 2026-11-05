@@ -3,8 +3,10 @@ this code for a 'physics block' which tells multple physical values (acceleratio
 
 to make it work - use bmi160 module's i2c pins and set i2c_addr to 0x69 by connectind sdo to gnd.
 
+ BMI160 --- ESP32 C3
+
           SDA --- SDA
- BMI160   SCL --- SCL  ESP32 C3
+          SCL --- SCL  
           GND --- GND
           VCC --- 3V3
 
